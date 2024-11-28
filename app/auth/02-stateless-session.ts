@@ -21,6 +21,7 @@ export async function decrypt(session: string | undefined = "") {
     });
     return payload;
   } catch (error) {
+    console.log(`learn with fixed time daily for the good of world: ${error}`);
     return null;
   }
 }
